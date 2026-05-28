@@ -33,7 +33,7 @@ const WANTED_AGENTS = [
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("Discord to Telegram bot is running.");
+  res.send("Discord to Telegram bot is runnning.");
 });
 
 app.get("/health", (req, res) => {
